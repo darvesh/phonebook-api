@@ -31,8 +31,8 @@ router.get("/:id", contactValidator, async (req, res, next) => {
 	});
 });
 
-router.get("/", async (_, res) => {
-	const contacts = await PhonebookSchema.find();
+router.get("/", async (req, res) => {
+	const contacts = await PhonebookSchema.find(req.query);
 	return res.status(200).json({
 		success: true,
 		data: contacts
