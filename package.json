@@ -1,0 +1,27 @@
+{
+	"name": "phone_book",
+	"version": "0.1.0",
+	"description": "Phone Book app to manage contacts",
+	"main": "index.js",
+	"scripts": {
+		"start": "cross-env NODE_ENV=dev node index.js",
+		"test": "mocha --timeout 10000"
+	},
+	"keywords": [
+		"phonebook"
+	],
+	"author": "Fakruddin Darvesh A K",
+	"license": "MIT",
+	"dependencies": {
+		"config": "^3.2.4",
+		"cross-env": "^6.0.3",
+		"express": "^4.17.1",
+		"express-validator": "^6.3.1",
+		"mongoose": "^5.8.7"
+	},
+	"devDependencies": {
+		"chai": "^4.2.0",
+		"chai-http": "^4.3.0",
+		"mocha": "^7.0.0"
+	}
+}
