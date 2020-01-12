@@ -4,7 +4,8 @@
 	"description": "Phone Book app to manage contacts",
 	"main": "index.js",
 	"scripts": {
-		"start": "cross-env NODE_ENV=dev node index.js",
+		"start": "cross-env NODE_ENV=prod node index.js",
+		"dev": "cross-env NODE_ENV=dev node index.js",
 		"test": "mocha --timeout 10000"
 	},
 	"keywords": [
