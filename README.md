@@ -35,8 +35,21 @@ Returns:
 }
 ```
 
-
 **Get all contacts:**
+
+```
+GET /
+```
+Returns:
+```
+{
+  success: {Boolean}
+  data: {Array<Contact>} list of all contacts
+}
+```
+
+
+**Get contacts by query:**
 
 ```
 GET /?firstname=fname&lastname=sname&email=email&company=company&group=friends
