@@ -39,7 +39,7 @@ Returns:
 **Get all contacts:**
 
 ```
-GET /
+GET /?firstname=fname&lastname=sname&email=email&company=company&group=friends
 ```
 Returns:
 ```
