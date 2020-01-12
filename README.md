@@ -8,7 +8,7 @@ Phonebook API to manage contacts
 3. Install dependencies: `npm install`.
 4. Run for development: `npm run dev`.
 5. Run for production: `npm start`.
-
+6. To run test: `npm test`
 ## API
 
 **Add a new contact:**
