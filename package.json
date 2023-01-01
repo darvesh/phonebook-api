@@ -14,7 +14,7 @@
 	"author": "Fakruddin Darvesh A K",
 	"license": "MIT",
 	"dependencies": {
-		"config": "^3.2.4",
+		"config": "^3.3.8",
 		"cross-env": "^6.0.3",
 		"express": "^4.17.1",
 		"express-validator": "^6.3.1",
